@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meo meo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-robot"></i> AI meo meo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#features">Tính năng</a></li>
+                    <li><a href="#about">liên hệ</a></li>
+                    <li><a href="#contact">góp ý</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Trợ lý meo meo thông minh</h2>
+                <p>Giải pháp AI tiên tiến giúp bạn xử lý công việc hiệu quả hơn</p>
+                <a href="#chat" class="btn">Trò chuyện ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Tính năng nổi bật</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Trò chuyện thông minh</h3>
+                    <p>Tương tác tự nhiên với AI qua văn bản hoặc giọng nói</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Hỗ trợ tiếng Việt</h3>
+                    <p>Hiểu và phản hồi tự nhiên bằng tiếng Việt</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Học hỏi liên tục</h3>
+                    <p>Hệ thống không ngừng được cải thiện để đáp ứng nhu cầu của bạn</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Bảo mật cao</h3>
+                    <p>Bảo vệ thông tin cá nhân và dữ liệu của bạn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chat" class="chat-section">
+        <div class="container">
+            <h2>Trò chuyện với AI</h2>
+            <div class="chat-container">
+                <div class="chat-box" id="chatBox">
+                    <div class="message bot">
+                        <p>Xin chào! Tôi là trợ lý AI. Tôi có thể giúp gì cho bạn?</p>
+                    </div>
+                </div>
+                <div class="input-area">
+                    <input type="text" id="userInput" placeholder="Nhập tin nhắn của bạn...">
+                    <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>liên hệ</h2>
+            <p>https://www.facebook.com/profile.php?id=61555333893759</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>góp ý</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Họ tên</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tin nhắn</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; meo meo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
